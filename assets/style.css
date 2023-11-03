@@ -3,7 +3,7 @@
 }
 
 .profile-title {
-  font-size: 60px;
+  font-size: 50px;
 }
 
 .profile-input {
@@ -23,4 +23,8 @@
 
 .p-autoplay {
   font-size: small;
+}
+
+.profile-btn-size {
+  font-size: 12px;
 }
