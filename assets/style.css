@@ -1,3 +1,26 @@
 .down:hover {
   background-color: black;
 }
+
+.profile-title {
+  font-size: 60px;
+}
+
+.profile-input {
+  width: 90%;
+  padding-inline: 10px;
+}
+.profile-input::placeholder {
+  color: white;
+}
+.profile-button {
+  background-color: rgb(68, 67, 67);
+  padding-inline: 10px;
+}
+.edit-btn {
+  letter-spacing: 2px;
+}
+
+.p-autoplay {
+  font-size: small;
+}
