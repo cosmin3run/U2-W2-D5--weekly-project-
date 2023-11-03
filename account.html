@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Account</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="./assets/style.css" />
+  </head>
+  <body>
+    <header class="mb-2 bg-black">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid p-0">
+          <img src="./assets/img/assets/netflix_logo.png" alt="Netflix logo" width="90" />
+          <button
+            class="navbar-toggler bg-secondary"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse ps-4" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active text-white-50" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">TV Shows</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white-50" href="#">Movies</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white-50" href="#">Recently Added</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white-50" href="#">My List</a>
+              </li>
+            </ul>
+
+            <div class="d-flex align-items-center" role="search">
+              <i class="bi bi-search text-white"></i>
+              <a class="nav-link text-white px-4">KIDS</a>
+              <i class="bi bi-bell-fill text-white pe-4"></i>
+              <div class="dropdown">
+                <img
+                  src="./assets/img/assets/avatar.png"
+                  class="btn dropdown-toggle"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  width="60"
+                />
+                <i class="bi bi-caret-down-fill text-white btn border-0" data-bs-toggle="dropdown"></i>
+                <ul class="dropdown-menu bg-dark">
+                  <li><a class="dropdown-item text-white down" href="#">Gestisci profilo</a></li>
+                  <li><a class="dropdown-item text-white down" href="#">Trasferisci profilo</a></li>
+                  <li><a class="dropdown-item text-white down" href="#">Account</a></li>
+                  <li><a class="dropdown-item text-white down" href="#">Centro assistenza</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="row justify-content-center mt-5">
+      <div class="col-9">
+        <h1>Account</h1>
+        <div class="border-bottom border-dark-subtle mb-3"></div>
+        <div class="row">
+          <div class="col-2">
+            <p class="account-fz text-secondary fw-bold">MEMBERSHIP & BILLING</p>
+            <button class="border-0 border-bottom account-fz px-3 py-2">Cancel Membership</button>
+          </div>
+          <div class="col-5 border-bottom pb-3">
+            <p class="m-0 fw-bold">Student@strive.school</p>
+            <p class="m-0 text-secondary">Password: *********</p>
+            <p class="m-0 text-secondary">Phone: 321 104 4279</p>
+          </div>
+          <div class="col-5 border-bottom pb-3">
+            <a class="d-block" style="text-align: right" href="#">Change account email</a>
+            <a class="d-block" style="text-align: right" href="#">Change password</a>
+            <a class="d-block" style="text-align: right" href="#">Change phone number</a>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
